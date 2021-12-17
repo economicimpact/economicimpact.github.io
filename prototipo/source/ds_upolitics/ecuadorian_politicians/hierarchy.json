@@ -1,0 +1,25 @@
+{
+	"ranges": {
+		"name": "Root",
+		"children": [{
+			"name": "Match",
+			"children": [
+				{
+					"name":"#EjercitoEcuatoriano",
+					"color": "#1f78b4",
+					"img": ""
+				},
+				{
+					"name":"#PorEcuador",
+					"color": "#33a02c",
+					"img": ""
+				},
+				{
+					"name":"#FFAAContigo",
+					"color": "#ff7f00",
+					"img": ""
+				}
+			]
+		}]
+	}
+}

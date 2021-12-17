@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135535666-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-135535666-5');
+</script>
+<title>Proyecto</title>
+
+<!-- Required meta tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- SHORTCUT -->
+<link rel="shortcut icon" type="image/png" href="img/icon_web.png" />
+
+<!-- BOOTSTRAP CSS-->
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+	integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+	crossorigin="anonymous">
+
+<!-- STYLE MAIN CSS -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<!-- MULTISTREAM-VIS CSS -->
+<link rel="stylesheet" type="text/css" href="css/style-multistream.css">
+<link rel="stylesheet" type="text/css" href="css/style-multistream-tooltip.css">
+<link rel="stylesheet" type="text/css" href="css/style-multistream-storytelling.css">
+
+<!-- TREE-VIS CSS -->
+<link rel="stylesheet" type="text/css" href="css/style-tree.css">
+<link rel="stylesheet" type="text/css" href="css/style-tree-tooltip.css">
+
+<!-- LOADER CSS-->
+<link rel="stylesheet" type="text/css" href="css/loader.css">
+
+<!-- TREENAV CSS-->
+<link rel="stylesheet" type="text/css" href="css/nav.css">
+
+<!-- MENU CSS-->
+<link rel="stylesheet" type="text/css" href="css/style-menu.css">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+<!-- Icons Fonts -->
+<!-- <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css"> -->
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+	integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+	crossorigin="anonymous">
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+	integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+	crossorigin="anonymous"></script>
+<script
+	src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+	integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+	crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+
+	<div id="datasetNav" class="sidenav">
+		<div class="accordion" id="accordionExample">
+		</div>
+	</div>
+	
+
+	<div id="loader" style="display: none"></div>
+
+	<div id="bodyContainer" class="container-fluid bg">
+		<nav id="appHeaderWrapper" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+			<ul class="navbar-nav mr-auto">
+				<a 	class="navbar-brand" href='#!' target="_blank">
+					<!-- <img id="appIcon" src="img/icon_web.png" alt="" /> -->
+					<span id="appTitle"></span>
+				</a>
+			</ul>
+
+			<!-- <span id="appMsg" class="navbar-text d-none d-sm-block">
+				Are you interested? contact us! <a href="mailto:info@udaviz.com"><i id="appContactUs" class="fas fa-envelope"></i></a>
+			</span>	 -->
+		</nav>
+		
+		<div id="mainWrapper" class="row " style="opacity: 0">
+			<div class="col-12">
+
+				<div class="">	
+
+					<!-- <div class="row d-none d-sm-block text-center">
+						<br>
+						<h5 id="championship" class="matchChampionship"></h5>
+						<h6 id="stage" class="matchStage text-truncate"></h6>
+						<div class="col-sm teamWrapper">
+							<div class="teamInfo" style="left:0%;">
+								<img id="homeTeamLogo" class='teamLogo clearfix' style="right: 0%;">
+								<h4 id="homeTeamName" class="teamName" style="right: 0%; text-align: right;"></h4>
+							</div>
+							<div class="teamScore" style="right:0%;">
+								<h2 id="homeTeamScore" class="teamScoreValue"></h2>
+							</div>
+						</div>
+						<div class="col-3 centerTextTeamWrapper">
+							
+							
+							<p id="matchPlace" class='subtitle1 matchPlace text-truncate'></p>
+							<p id="matchDate" class='subtitle2 matchDate text-truncate'></p>
+						</div>
+						<div class="col-sm teamWrapper">
+							<div class="teamScore" style="left:0%;">
+								<h2 id="awayTeamScore" class="teamScoreValue"></h2>
+							</div>
+							<div class="teamInfo" style="right:0%;">
+								<img id="awayTeamLogo" class='teamLogo clearfix' style="left: 0%;">
+								<h4 id="awayTeamName" class="teamName" style="text-align: left;"></h4>
+							</div>
+						</div>
+					</div> -->
+	
+					<div class='row d-block d-sm-none text-center'>
+						<div class="col-sm teamWrapperMobil">
+							<div class="teamInfoMobil" style="left:0%;">
+								<img id="homeTeamLogoMobil" class='teamLogoMobil clearfix' style="right: 0%;">
+							</div>
+							<div class="teamScoreMobil" style="right:0%;">
+								<h2 id="homeTeamScoreMobil" class="teamScoreValueMobil"></h2>
+							</div>
+						</div>
+						<div class="col-3 centerTextTeamWrapper">
+							<h5 id="championshipMobil"></h5>
+							<p id="matchDateMobil" class='subtitle1'></p>
+						</div>
+						<div class="col-sm teamWrapperMobil">
+							<div class="teamScoreMobil" style="left:0%;">
+								<h2 id="awayTeamScoreMobil" class="teamScoreValueMobil"></h2>
+							</div>
+							<div class="teamInfoMobil" style="right:0%;">
+								<img id="awayTeamLogoMobil" class='teamLogoMobil clearfix' style="left: 0%;">
+							</div>
+						</div>
+					</div>
+	
+					<!-- <div class='d-none d-sm-block'>
+						<div class="row justify-content-center ">
+							<div id="cardTweets" class="card" style="width: 15em;">
+								<div class="card-body card-body-title">
+									<h6 class="card-title">Tweets</h6>
+								</div>
+								<div class="card-body-description">
+									<h2 id="tweets" class="num-tweets"></h2>
+								</div>
+							</div>
+							<div id="cardHashtags" class="card" style="width: 18em;">
+								<div class="card-body card-body-title">
+									<h6 class="card-title">Trends</h6>
+								</div>
+								<ul id="hashtags" class="list-group list-group-flush">
+								</ul>
+							</div>
+							<div id="cardMentions" class="card" style="width: 18em;">
+								<div class="card-body card-body-title">
+									<h6 class="card-title">Top Mentions</h6>
+								</div>
+								<ul id="mentions" class="list-group list-group-flush">
+								</ul>
+							</div>
+							<div id="cardInteractions" style='display:none;' class="card" style="width: 18em;">
+								<div class="card-body card-body-title">
+									<h6 class="card-title">Top Interactions</h6>
+								</div>
+								<ul id="interactions" class="list-group list-group-flush">
+								</ul>
+							</div>
+						</div>
+					</div> -->
+	
+					<div class='d-block d-sm-none'>
+						<div class="row justify-content-center">
+							<div id="cardTweets" class="card" style="width: 7em;">
+								<div class="card-body card-body-title">
+									<h6 class="card-title">Tweets</h6>
+								</div>
+								<div class="card-body-description">
+									<h2 id="tweetsMobil" class="num-tweets"></h2>
+								</div>
+							</div>
+							<div id="cardInteractions" class="card" style="width: 9em;">
+								<div class="card-body card-body-title">
+									<h6 class="card-title">Top Interactions</h6>
+								</div>
+								<ul id="interactionsMobil" class="list-group list-group-flush">
+								</ul>
+							</div>
+						</div>
+					</div>
+				
+				</div>
+
+
+				
+
+				<div class="row">
+
+					<div class="col-3">
+						<div class='d-none d-sm-block'>
+							<div class="row justify-content-center ">
+								<div id="cardTweets" class="card" style="width: 15em;">
+									<div class="card-body card-body-title">
+										<h6 class="card-title">Tweets</h6>
+									</div>
+									<div class="card-body-description">
+										<h2 id="tweets" class="num-tweets"></h2>
+									</div>
+								</div>
+								<div id="cardHashtags" class="card" style="width: 18em;">
+									<div class="card-body card-body-title">
+										<h6 class="card-title">Trends</h6>
+									</div>
+									<ul id="hashtags" class="list-group list-group-flush">
+									</ul>
+								</div>
+								<div id="cardMentions" class="card" style="width: 18em;">
+									<div class="card-body card-body-title">
+										<h6 class="card-title">Top Mentions</h6>
+									</div>
+									<ul id="mentions" class="list-group list-group-flush">
+									</ul>
+								</div>
+								<div id="cardInteractions" style='display:none;' class="card" style="width: 18em;">
+									<div class="card-body card-body-title">
+										<h6 class="card-title">Top Interactions</h6>
+									</div>
+									<ul id="interactions" class="list-group list-group-flush">
+									</ul>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+
+					<div class="col-9 vis-wrapper">
+						<div id="multistream-vis-wrapper">
+							<svg id="svg-multistream-vis"></svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- <span id="openCloseBtnDataset" class ="floatBtn" onclick="dealWithBtnDataset()">&nbsp;&#9776;&nbsp;MENU&nbsp;</span>
+		<span id="socialBtn" class ="floatBtn">
+			<div class="sharing-buttons d-none d-sm-block">
+				<a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fudaviz.com%2Fupolitics%2F&quote=A%20new%20way%20to%20visualize%20politicians%20events" title="Share on Facebook"  target="_blank"><i class="fab-social fab fa-facebook-square"></i></a>
+				<a class="twitter" href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fudaviz.com%2Fupolitics%2F&text=A%20new%20way%20to%20visualize%20politicians%20events:%20http%3A%2F%2Fudaviz.com%2Fupolitics%2F&via=udaviz_" target="_blank"><i class="fab-social fab fa-twitter"></i></a>
+			</div>
+		</span> -->
+		
+
+
+
+		
+	</div>
+
+	<div id="alert-msg"
+		class="alert alert-danger alert-dismissable hidden fade in"
+		style="display: none">
+		<span id="close-alert" class="close">&times;</span> <strong>Warning!</strong>
+		not allowed due to constraints.
+	</div>
+
+	<!-- Modal data -->
+	<div class="modal fade" id="data-modal" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div id="data-modal-title" class="modal-header"></div>
+				<div id="data-modal-subtitle"></div>
+				<div id="data-modal-msg" class="modal-body"></div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- D3 library -->
+	<script src="js/d3/d3.v3.min.js"></script>	
+	<!-- D3 Queue Async -->
+	<script src="js/d3/d3-queue.js"></script>
+
+	<!-- CASERO -->
+	<script src="js/casero/chroma.js"></script>
+	<script src="js/casero/compVecOut.js"></script>
+	<script src="js/casero/generalizes.js"></script>
+	<script src="js/casero/PolyReCoeffInT.js"></script>
+	<script src="js/casero/rpoly.js"></script>
+	<!-- CASERO -->
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/5.5.0/math.js"></script>
+	<script src="js/global.js"></script>
+	<script src="js/multistream-vis.js"></script>
+	<script src="js/multistream-hierarchy-util.js"></script>
+	<script src="js/tree-vis.js"></script>
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+	<script type="text/javascript">
+
+
+		function isMobileDevice() {
+			// alert("La página no es óptima (aún) en dispositivos mobiles")
+			return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+		};
+
+		
+		// function killTimerStories(){
+		// 	console.log("matado!")
+		// 	clearTimeout(timerStoriesPanel);
+		// }
+		// function startTimeStories(){
+		// 	console.log("apagando...")
+		// 	timerStoriesPanel = setTimeout(function(){ 
+		// 					console.log(("terminado"))
+		// 					document.getElementById("home_stories").style.opacity=0;
+		// 					document.getElementById("away_stories").style.opacity=0;
+		// 				},7000);
+		// }
+
+		// //
+		// document.getElementById("home_stories").onmouseover = function() {killTimerStories()};
+		// document.getElementById("away_stories").onmouseover = function() {killTimerStories()};
+		// //
+		// document.getElementById("home_stories").onmouseout = function() {startTimeStories()};
+		// document.getElementById("away_stories").onmouseout = function() {startTimeStories()};
+
+		function dealWithBtnDataset() {
+
+			let openCloseBtnDataset = document.getElementById("openCloseBtnDataset");
+			let leftNav = document.getElementById("datasetNav");
+
+			if (!openCloseBtnDataset.classList.contains("active")) {
+				leftNav.style.width = "250px";
+				openCloseBtnDataset.style.left = "250px";
+			} else {
+				openCloseBtnDataset.style.left = "0px";
+				leftNav.style.width = "0";
+			}
+			openCloseBtnDataset.classList.toggle("active");
+		}
+
+
+		/* Set the width of the side navigation to 250px */
+		var multistreamVisWidth;
+		var multistreamVisHeight;
+
+		var mapVisWidth;
+		var mapVisHeight
+
+		var treeVisWidth = 500;
+		var treeVisHeight = 6000;
+
+		$(document).ready(function() {
+
+			var gapEveryWindowsWidth = 20;
+			const gapWindowsHeightMultiresolutionVis = 60;
+			
+			//MULTISTREAM VIS
+			multistreamVisWidth = document.querySelector(
+					'#multistream-vis-wrapper')
+					.getBoundingClientRect().width
+					- gapEveryWindowsWidth;
+
+			multistreamVisHeight = window.innerHeight
+					|| document.documentElement.clientHeight
+					|| document.body.clientHeight;
+
+			multistreamVisHeight = multistreamVisHeight
+					- gapWindowsHeightMultiresolutionVis;
+
+			makeMenuDataset("source/dataset.json");
+
+		});
+
+	</script>
+
+</body>
+</html>

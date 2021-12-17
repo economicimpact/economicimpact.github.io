@@ -1,0 +1,666 @@
+body,html {
+	font-family: 'Roboto', 'Roboto Slab' 'Source Sans Pro', sans-serif;
+	/* background: rgb(0, 0, 0, 0.8);  */
+	background: white; 
+	/* font-size:100%; */
+	/* font-size: 1rem; */
+	height: 100%;
+  	margin: 0;
+}
+
+.bg {
+	height: 100%;
+	margin: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+h4{
+	font-family: "Roboto Slab";
+	font-size: 1.02rem;
+	font-weight: 400;
+	font-style:normal;
+	letter-spacing: 0.0em;
+}
+
+h5{
+	font-family: "Roboto Slab";
+	font-size: 0.72rem;
+	font-weight: 400;
+	font-style:normal;
+	letter-spacing: 0.0em;
+}
+
+h6{
+	font-family: "Roboto Slab";
+	font-size: 0.6rem;
+	font-weight: 500;
+	font-style:normal;
+	letter-spacing: 0.05em;
+}
+
+
+.subtitle1{
+	font-family: "Roboto";
+	font-size: 0.48rem;
+	font-weight: 400;
+	font-style:normal;
+	letter-spacing: 0.05em;
+}
+
+.subtitle2{
+	font-family: "Roboto";
+	font-size: 0.42rem;
+	font-weight: 500;
+	font-style:normal;
+	letter-spacing: 0.03em;
+}
+
+.body1{
+	font-family: "Roboto";
+	font-size: 0.48rem;
+	font-weight: 400;
+	font-style:normal;
+	letter-spacing: 0.04em;
+}
+
+.body2{
+	font-family: "Roboto";
+	font-size: 0.42rem;
+	font-weight: 400;
+	font-style:normal;
+	letter-spacing: 0.02em;
+}
+
+
+.button{
+	font-family: "Roboto";
+	font-size: 0.42rem;
+	font-weight: 500;
+	font-style:normal;
+	letter-spacing:0.05em;
+	text-transform: uppercase;	
+}
+
+.caption{
+	font-family: "Roboto";
+	font-size: 0.36rem;
+	font-weight: 400;
+	font-style:normal;
+	letter-spacing: 0.01em;
+}
+
+.overline{
+	font-family: "Roboto";
+	font-size: 0.3rem;
+	font-weight: 400;
+	font-style:normal;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;	
+}
+
+div {
+	-webkit-user-select: none; /* Chrome, Opera, Safari */
+	-moz-user-select: none; /* Firefox 2+ */
+	-ms-user-select: none; /* IE 10+ */
+	/* user-select: none; Standard syntax */
+}
+
+.text-truncate{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.text-uppercase{
+	text-transform: uppercase;
+}
+
+.text-bold{
+	font-weight: 700;
+}
+
+/* APP HEADER  */
+#appHeaderWrapper {
+	/* background: linear-gradient(to top, #3c5a99 0%, #1da1f2 100%)!important; */
+	background:#33a02c!important;
+	border-bottom: 1px solid #fafafa;
+	height: 2.5rem;
+}
+
+.navbar-brand{
+	padding:0;
+	margin:0;
+}
+
+#cardHashtags{
+	background-image: url('../img/hashtag_background.png');
+}
+#cardMentions{
+	background-image: url('../img/mention_background.png');
+	
+}
+#cardInteractions{
+	background-image: url('../img/mention_background.png');
+}
+/* #cardTweets{
+	background-image: url('../img/twitter_background.png');
+} */
+
+
+.card{
+	margin:1em 0.25em 1em 0.25em;
+	background-color:#f7f7f7;
+	/* border:1px solid; */
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.card-menu{
+	margin:0.5em 0.25em 0.5em 0.25em;
+	background-color:#f7f7f7;
+	/* border:0px; */
+	/* border:1px solid;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px; */
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.card-body-title{
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+.card-title{
+	text-align: left;
+	color:#252525;
+	font-size: 1.2rem;
+	/* margin-top: 1rem; */
+	padding: 0;
+}
+
+
+.num-tweets{
+	color:#525252;
+	text-transform: uppercase;
+}
+
+.card-body-description{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+
+.list-group-item {
+	background-color: rgba(128, 128, 128, 0.95) !important;
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;
+}
+/* LEFT */
+.list-group-item a {
+	color:#f0f0f0!important;
+	font-weight: 900;
+	font-size: 0.8rem;
+	letter-spacing: 0.1em;
+	margin:0.2rem
+}
+
+.list-group-item a:hover {
+	text-decoration: none;
+	font-weight: 700;
+}
+/* RIGHT */
+.list-group-item span {
+	color:#ffffff!important;
+	font-weight: 900;
+	font-size: 1rem;
+}
+
+
+#appTitle {
+	vertical-align: middle;
+	font-size: 1.2rem;
+	font-weight: 500;
+	letter-spacing: 0.07em;
+	color:#fff;
+}
+
+#appIcon {
+	height: 18px;
+	width: 18px;
+}
+
+#appMsg{
+	vertical-align: middle!important;
+	font-size: 0.9rem!important;
+	font-weight: 400!important;
+	color:rgba(242,242, 242, 0.9)!important;
+}
+
+#appContactUs{
+	vertical-align: middle!important;
+	color:#fff!important;
+	width: 30px;
+	height: auto;
+}
+
+
+/* ========================== */
+
+#mainWrapper{
+	padding: 3em 0.0em 0em 0.0em;
+	margin: 0em 0em 0em 0em;
+}
+
+/* ========================== */
+
+
+
+.timeWrapper{
+	display:inline-block;
+}
+
+.timeFromWrapper{
+	text-align: right;
+}
+
+.timeToWrapper{
+	text-align: left;
+}
+
+.timeUp{
+	display:block;
+}
+
+.timeDown{
+	display:block;
+}
+
+.separationWrapper{
+	font-size: 1.5rem;
+	display:inline;
+	vertical-align: center;
+	font-weight: 700;
+}
+
+
+/* ========================== */
+/* ========================== */
+
+.teamWrapperMobil{
+	position:relative;
+	display:inline-block;
+	/* border:2px solid black; */
+	width:90px;
+	height: 80px;
+}
+
+
+.teamLogoMobil{
+	height: 3.5em;
+	width: auto;
+	opacity:0.7;
+	display:inline-block;
+}
+
+.teamInfoMobil{
+	position: absolute;
+	/* background:orange; */
+	width:70%;
+	height: 80px;
+	line-height: 80px; 
+}
+
+.teamScoreMobil{
+	position: absolute;
+	/* background:green; */
+	width:30%;
+	height: 80px;
+}
+
+.teamScoreValueMobil{
+	text-align: center;
+	height: 80px;
+	line-height: 80px; /* same as height! */
+}
+
+/* ================================== */
+/* ================================== */
+
+.teamWrapper{
+	position:relative;
+	display:inline-block;
+	/* border:2px solid black; */
+	width:350px;
+	height: 0px;
+}
+
+.teamInfo{
+	position: absolute;
+	/* background:orange; */
+	width:80%;
+	height: 0px;
+	line-height: 150px; 
+}
+
+.teamScore{
+	position: absolute;
+	width:20%;
+	height: 30px;
+}
+
+
+.teamWrapper .teamInfo .teamName{
+	position: absolute;
+	top: 50%;
+	width: auto;
+	font-weight: 600;
+	/* color:rgb(0, 0, 0, 1); */
+	color:rgb(255, 255, 255, 1);
+	text-transform: uppercase;
+	/* text-shadow: 3px 3px 8px white; */
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	/* text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black; */
+	/* text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white; */
+}
+
+
+.teamScoreValue{
+	text-align: center;
+	height: 150px;
+	line-height: 150px; /* same as height! */	
+	color:rgb(255, 255, 255, 0.9);
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+.teamLogo{
+	position: absolute;
+	display:inline-block;
+	height: 9.5em;
+	width: auto;
+	opacity:0.95;
+}
+
+#awayTeamLogo{
+	-webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+     -ms-transition: opacity 0.5s ease-in-out;
+      -o-transition: opacity 0.5s ease-in-out;
+         transition: opacity 0.5s ease-in-out;
+}
+
+
+.centerTextTeamWrapper{
+	text-align: center;
+	display: inline-block;
+	margin:0rem 0.5rem 0rem 0.5rem;
+	/* border:1px solid black; */
+}
+
+.matchChampionship,.matchStage{
+	text-transform: uppercase;
+}
+
+.matchChampionship{
+	color:rgba(255, 255, 255, 0.7);
+}
+
+.matchStage{
+	color:rgba(255, 255, 255, 0.8);
+	font-weight: 500;
+}
+
+.matchPlace, .matchDate{
+	margin:0px;
+	padding:0px;
+	color:rgba(255, 255, 255, 0.7);
+}
+
+
+
+.logo{
+	display:inline-block;
+}
+
+/* EACH VIS */
+
+/* ========================== */
+/* TITLE VIS */
+.title-vis-wrapper {
+	vertical-align: middle;
+	text-align: center;
+	margin: 5px auto 0px;
+}
+
+.title-vis-wrapper .title-vis {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0px 0px 0px 0px;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+/* VIS wrapper */
+.vis-wrapper {
+	/* background-color:rgba(128,128,128, 0.8);  */
+	/* background-color:rgba(255,255,255, 0.8);  */
+	background-color:rgba(242,242,242, 0.7); 
+	border-radius: 1.5rem;
+}
+
+
+.vis-header-wrapper {
+	border-bottom-width: 0.5px;
+	border-bottom-style: solid;
+	border-bottom-color: #bdbdbd;
+	margin-bottom: 20px;
+}
+
+
+/* BUTTONS VIS MENU */
+/* ========================== */
+.vis-menu-btn {
+	border: 1px solid #00a9e5;
+	background-color: white;
+}
+.vis-menu-btn.active {
+	background-color:#00a9e5;
+	color: white;
+}
+.vis-menu-btn:hover{
+	background-color: #c6dbef;
+}
+/* ========================== */
+
+.icon {
+	height: 16px;
+	width: 16px;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/* ========================== */
+/* MENU FIXED */
+.menuFixed{
+	position:fixed;
+}
+
+
+
+
+/* ========================== */
+/* ========================== */
+/* EACH TOOLTIP */
+.tooltip{
+	width: auto;
+	height: auto;
+	border:1px solid black;
+	border-radius:5px;
+	
+	padding: 0.5em 0.5em 0em 0.5em;
+	background:  rgba(255, 255, 255, 0.95);
+	border: 1px solid #bdbdbd;
+}
+
+.tooltip-nopointer{
+	pointer-events: none;
+}
+
+
+
+
+/* ========================== */
+/* ========================== */
+
+/* ========================== */
+/* SHARING BUTTONS */
+
+#socialBtn{
+    top:50%;
+    right:0px;
+    background-color: white;
+}
+
+.sharing-buttons{
+	z-index: 1;	
+}
+
+.sharing-buttons a{
+	display:block;
+	padding: 0.4em 0.2em 0.2em 0.35em;
+	color: #fff;
+	text-decoration: none;
+}
+
+.sharing-buttons-mobil a{
+	border-radius: 0.05em;
+	display:inline-block;
+	color: #fff;
+	text-decoration: none;
+}
+
+.sharing-buttons a:hover{
+	color: #eee;
+	text-decoration: none;
+}
+
+.fab-social{
+	font-size:1.5em;
+}
+
+.fab-social-mobil{
+	font-size:1em;
+}
+
+.facebook{
+
+	background: #3B5998; 
+}
+
+.twitter{
+	background: #00ACED;
+}
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones. 544px and up) */
+@media (min-width: 544px) {  
+	h1{font-size:3.66rem;}
+	h2{font-size:2.2875rem;}
+	h3{font-size:1.83rem;}
+	h4{font-size:1.29625rem;}
+	h5{font-size:0.915rem;}
+	h6{font-size:0.7625rem;}
+	.subtitle1{font-size:0.61rem;}
+	.subtitle2{font-size:0.53375rem;}
+	.body1{font-size:0.61rem;}
+	.body2{font-size:0.53375rem;}
+	.button{font-size:0.53375rem;}
+	.caption{font-size:0.4575rem;}
+	.overline{font-size:0.38125rem;}
+}
+
+/* Medium devices (tablets. 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+	h1{font-size:4.44rem;}
+	h2{font-size:2.775rem;}
+	h3{font-size:2.22rem;}
+	h4{font-size:1.5725rem;}
+	h5{font-size:1.11rem;}
+	h6{font-size:0.925rem;}
+	.subtitle1{font-size:0.74rem;}
+	.subtitle2{font-size:0.6475rem;}
+	.body1{font-size:0.74rem;}
+	.body2{font-size:0.6475rem;}
+	.button{font-size:0.6475rem;}
+	.caption{font-size:0.555rem;}
+	.overline{font-size:0.4625rem;}	
+}
+
+/* Large devices (desktops. 992px and up) */
+@media (min-width: 992px) { 
+	h1{font-size:5.22rem;}
+	h2{font-size:3.2625rem;}
+	h3{font-size:2.61rem;}
+	h4{font-size:1.84875rem;}
+	h5{font-size:1.305rem;}
+	h6{font-size:1.0875rem;}
+	.subtitle1{font-size:0.87rem;}
+	.subtitle2{font-size:0.76125rem;}
+	.body1{font-size:0.87rem;}
+	.body2{font-size:0.76125rem;}
+	.button{font-size:0.76125rem;}
+	.caption{font-size:0.6525rem;}
+	.overline{font-size:0.54375rem;}
+}
+
+/* Extra large devices (large desktops. 1200px and up) */
+@media (min-width: 1200px) {  
+	h1{font-size:6rem;}
+	h2{font-size:3.75rem;}
+	h3{font-size:3rem;}
+	h4{font-size:2.125rem;}
+	h5{font-size:1.5rem;}
+	h6{font-size:1.25rem;}
+	.subtitle1{font-size:1rem;}
+	.subtitle2{font-size:0.875rem;}
+	.body1{font-size:1rem;}
+	.body2{font-size:0.875rem;}
+	.button{font-size:0.875rem;}
+	.caption{font-size:0.75rem;}
+	.overline{font-size:0.625rem;}
+}

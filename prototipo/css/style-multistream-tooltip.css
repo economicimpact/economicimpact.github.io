@@ -1,0 +1,21 @@
+.tooltip-multiresolution {
+	position: absolute;
+	display:none;
+}
+ 
+.tooltip-multiresolution .category_color{
+	display: inline-block;
+	margin-right: 5px;
+	width: 15px;
+	height: 10px;
+	border: 0.5px solid black;
+}
+
+.tooltip-multiresolution .quantitative {
+	font-weight:bold;
+	color: #3366cc;
+}
+
+.tooltip-multiresolution .foot {
+	padding-top:1em;
+}

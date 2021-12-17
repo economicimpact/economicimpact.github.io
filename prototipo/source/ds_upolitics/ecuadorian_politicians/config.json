@@ -1,0 +1,93 @@
+{
+	"init": {
+		"optsGeneral": {
+			"log": false,
+			"title": "",
+			"dataType": "tweets",
+			"durationTransition": 200
+		},
+		"optsMultistream": {
+			"polarityTemporal": "d",
+			"stepTemporal": 1,
+			"sinceDateUTC": "2011-01-01T00:00:00Z",
+			"untilDateUTC": "2021-12-20T00:00:00Z",
+			"animation": true,
+			"interpolateType": "cardinal-open",
+			"orderType": "inside-out",
+			"optsMultiresolution": {
+				"layersFadingColorsFactor": 1.15,
+				"layersBorderlineColor": "#585858",
+				"layersOpacitySelected": 1,
+				"layersOpacityNotSelected": 0.10,
+				"layersOutputRangeLabelScale": [0.7, 1.4],
+				"layersLabelType": ""
+			},
+			"optsContext": {
+				"numTimeStepBrushZoom": 5,
+				"numTimeStepBrushDistortion": 2,
+				"numTimeStepBrushNormal": 1
+			}
+		},
+		"optsMap": {
+			"outputRangeColorScaleMap": ["#f0f9e8", "#0868ac"],
+			"featuresOutputRangeLabelScale": [0.7, 1.7]
+		},
+		"optsEvents": {
+			"eventWidthSizeLabelScale": 1.1,
+			"eventHeightSizeLabelScale": 1.1
+		},
+		"matchDetails": {
+			"default": {
+				"matchDateStartUTC":"2020-08-16T02:00:00Z",
+				"matchDateFinishUTC":"",
+				"championship":"UFC 252",
+				"stage":"",
+				"matchPlace":"World",
+				"homeTeamName":"MARLON VERA",
+				"homeTeamLogoPathImg":"img/championships/ufc.png",
+				"homeTeamColor":"",
+				"homeTeamScore":"",
+				"awayTeamName":"SEAN O'MALLEY",
+				"awayTeamLogoPathImg":"img/championships/ufc.png",
+				"awayTeamColor":"",
+				"awayTeamScore":""
+
+			},
+			"matches": []
+		}
+	},
+	"list": [{
+		"optsGeneral": {
+			"active": true,
+			"generate_date": ""
+		},
+		"optsMultistream": {
+			"facteurZoom": 4,
+			"facteurDis": 2,
+			"facteurNor": 1,
+			"offsetType": "zero",
+			"optsMultiresolution": {
+				"showLimitsAreas": false,
+				"layersFadingColors": false,
+				"layersShowBorderline": false
+			},
+			"optsContext": {
+				"showBrushDistortion": false,
+				"showBrushNormal": false,
+				"showContext": true,
+				"blockedBrushNormalLeft": false,
+				"blockedBrushNormalRight": false,
+				"blockedBrushZoom": false,
+				"timeIntervalBrushNormalLeft": [],
+				"timeIntervalBrushDistortionLeft": [],
+				"timeIntervalBrushZoom": [],
+				"timeIntervalBrushDistortionRight": [],
+				"timeIntervalBrushNormalRight": []
+			}
+		},
+		"optsTree": {
+			"key_bottom_list": [],
+			"key_top_list": []
+		}
+	}]
+}

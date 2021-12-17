@@ -1,0 +1,27 @@
+[
+	{
+		"name":"2019 Ecuadorian Politicians",
+		"children":[	
+						{
+							"url": "source/ds_upolitics/ecuadorian_politicians/",
+							"urlBackground": "",
+							"showFirst":true,
+							"matchDetails":{
+								"matchDateStartUTC":"2019-05-01T00:00:00Z",
+								"championship":"Twitter evolution",
+								"stage":"Ecuadorian",
+								"matchPlace":"Ecuador",
+								"homeTeamName":"",
+								"homeTeamLogoPathImg":"",
+								"homeTeamColor":"",
+								"homeTeamScore":"",
+								"awayTeamName":"",
+								"awayTeamLogoPathImg":"",
+								"awayTeamColor":"",
+								"awayTeamScore":""
+							}
+						}
+		]
+	}
+
+]

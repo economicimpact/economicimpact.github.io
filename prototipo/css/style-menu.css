@@ -1,0 +1,170 @@
+/* Standard syntax */
+@keyframes changeBackgroundStyle{
+	from {
+		background-color: #2171b5;
+	}
+	to{
+		background-color: #ff7f00;
+		 /* #0F9D58; */
+		border-bottom-left-radius:0.2em;
+		border-bottom-right-radius:0.2em;
+		color:rgba(255,255,255,0.9);
+	}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes changeBackgroundStyle{
+	from {
+		background-color: #2171b5;
+	}
+	to{
+		background-color: #ff7f00;
+		border-bottom-left-radius:0.2em;
+		border-bottom-right-radius:0.2em;
+		color:rgba(255,255,255,0.9);
+	}
+}
+
+
+#openCloseBtnDataset{
+	font-weight: 600;
+    padding:0.2em 0.5em 0.2em 0.5em ;
+    left:0px;
+    top:50%;
+	transform-origin:0% 0% ;
+    transform: rotate(-90deg);
+    transition: 0.5s;
+	color:rgba(255,255,255,1);
+    background-color: #2171b5;
+    border-bottom-left-radius:0.9em;
+	border-bottom-right-radius:0.9em;
+	/* Safari 4.0 - 8.0 */
+	/* animation-name:changeBackgroundStyle;
+	animation-duration: 1s;
+	animation-delay: 6s;
+	animation-direction: alternate;  
+	animation-iteration-count: infinite; */
+	/* Safari 4.0 - 8.0 */
+	/* -webkit-animation-name:changeBackgroundStyle;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: 10s;
+	-webkit-animation-direction: alternate;  
+	-webkit-animation-iteration-count: infinite; */
+}
+
+#openCloseBtnDataset:hover{ 
+    background-color:#084594;
+    opacity:1;
+}
+
+
+.card-header{
+  background-color:#0077c2
+}
+
+.mb-0 button{
+  text-decoration: none;
+  color:  rgba(255,255,255,0.9);
+  text-transform: uppercase;
+  font-weight: 500;
+  border:0px;
+  font-size: 0.6em;
+  text-align: left;
+}
+.mb-0 button:hover, .mb-0 button:active{
+  text-decoration: none;
+  color:  rgba(255,255,255,1);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.menu-entry{
+  background-color: rgba(242,242,242,1);
+  border-bottom: 1px solid #0077c2;
+}
+
+.menu-entry .caption{
+	font-weight: 600;
+}
+
+.menu-entry .date{
+	margin-bottom:1em;
+}
+
+.menu-entry .icon{
+	height: 2em;
+	width: 2em;
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu-entry .button{
+  color: rgba(255,255,255,1);
+  background-color: #087f23;
+}
+
+.menu-entry .button:hover{
+  background-color: #00600f;
+}
+
+
+
+
+
+/* ============================= */
+
+.menu-entry .teamWrapper{
+	position:relative;
+	display:inline-block;
+	/* border:2px solid black; */
+	width:80px;
+	height: 50px;
+}
+
+
+.menu-entry .teamWrapper .teamLogo{
+	height: 2.6em;
+	width: auto;
+	opacity:0.9;
+	display:inline-block;
+}
+
+.menu-entry .teamWrapper .teamName{
+  max-width: 60px;
+  font-weight: 500;
+  color:rgba(0, 0, 0, 1);
+  text-shadow: none;
+}
+
+.menu-entry .teamInfo{
+	position: absolute;
+	/* background:orange; */
+	width:70%;
+	height: 50px;
+	line-height: 50px; 
+}
+
+.menu-entry .teamWrapper .teamScore{
+	position: absolute;
+	/* background:green; */
+	width:30%;
+	height: 50px;
+}
+
+.menu-entry .teamWrapper .teamScoreValue{
+	text-align: center;
+	height: 50px;
+	line-height: 50px; /* same as height! */
+	color:rgba(0, 0, 0, 1);
+}
+
+.menu-entry .teamWrapper .centerTextTeamWrapper{
+	text-align: center;
+	display: inline-block;
+	height: 50px;
+	/* margin:0rem 0.5rem 0rem 0.5rem; */
+	/* border:1px solid black; */
+}
+
+
+
